@@ -1,163 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/tryw3css_templates_archi">
-    <title>sample-website</title>
-    <!---CSS LINK-->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/tryw3css_templates_archi">
+  <title>sample-website</title>
+  <!---CSS LINK-->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <!-- HEADER SECTION -->
   <nav>
-   <div class="logo">
-    <h2>Br architects</h2>
-   </div>
-   <ul>
-    <li><a href=" #projects">Project</a></li>
-    <li><a href="#main-body">About</a></li>
-    <li><a href="#contact-section">Contacts</a></li>
-   </ul>
-  </nav>
-  <section id="home" class="welcome-hero">
-    <div class="container">
-      <div class="welcome-hero-txt">
-        <h3>Br<span id="color1">architects</span></h3>
+    <div class="logo">
+     <h2>Br architects</h2>
+    </div>
+    <ul>
+     <li><a href="#projects">Project</a></li>
+     <li><a href="#About">About</a></li>
+     <li><a href="#contact">Contact</a></li>
+    </ul>
+   </nav>
+   <section id="home" class="welcome-hero">
+     <div class="container">
+       <div class="welcome-hero-txt">
+         <h3><span id="color1">Br</span>
+         <span>Architects</span>
+         </h3>
+       </div>
+     </div>
+   </section>
+ <section id="projects">
+  <h2>Project</h2><hr>
+  <div class="top-images">
+    <div class="relative">
+      <img src="./Images/house2 (1).jpg" alt="Image 1">
+      <p>summer house </p>
+    </div>
+    <div class="relative">
+      <img src="./Images/house2.jpg" alt="Image 2">
+      <p>Bricks house</p>
+    </div>
+    <div class="relative">
+      <img src="./Images/house3.jpg" alt="Image 3">
+      <p>Renovated</p>
+    </div>
+    <div class="relative">
+      <img src="./Images/house4.jpg" alt="Image 4">
+      <p>Barn house</p>
+    </div>
+  </div>
+  <div class="bottom-img">
+    <div class="relative">
+      <img src="./Images/house2.jpg" alt="Image 5">
+      <p>Summer house</p>
+    </div>
+    <div class="relative">
+      <img src="./Images/house2.jpg" alt="Image 6">
+      <p>Bricks house</p>
+    </div>
+    <div class="relative">
+      <img src="./Images/house3.jpg" alt="Image 7">
+      <p>Renovated</p>
+    </div>
+    <div class="relative">
+      <img src="./Images/house4.jpg" alt="Image 8">
+      <p>Barn house</p>
+    </div>
+  </div>
+</section>
+  
+  <section id="About">
+      <div class="text">
+        <h2>About</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iure consectetur vero. Unde impedit
+          provident corporis consequatur aperiam, quaerat asperiores magnam recusandae ipsam beatae et,
+          odio exercitationem non vitae officiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero
+          quibusdam fugit, consectetur, maiores exercitationem, quaerat nam accusamus distinctio sit quas animi
+          molestias magni eveniet? Id dignissimos quaerat mollitia dolore quia.
+        </p>
       </div>
+      <div class="feature-content">
+        <div class="f-img">
+          <img src="./Images/img1.jpg">
+          <h1>John Doe</h1>
+          <p>Ceo & Founder</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore praesentium in
+            accusantium dolores </p>
+          <button class="btn">Contact</button>
+
+        </div>
+        <div class="f-img">
+          <img src="./Images/img2.jpg">
+          <h1>Jane Doe</h1>
+          <p>Architect</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore praesentium in
+            accusantium dolores </p>
+          <button class="btn">Contact</button>
+        </div>
+        <div class="f-img">
+          <img src="./Images/img3.jpg">
+          <h1>Mike Ross</h1>
+          <p>Architect</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore praesentium in
+            accusantium dolores </p>
+          <button class="btn">Contact</button>
+        </div>
+        <div class="f-img">
+          <img src="./Images/img4.jpg">
+          <h1>Dan star</h1>
+          <p>Architect</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore praesentium in
+            accusantium dolores </p>
+          <button class="btn">Contact</button>
+        </div>
+      </div>
+  </section>
+  <section id="contact">
+    <div class="contact-text">
+      <h1>Contact</h1>
+      <hr>
+      <h3>let get in touch and talk about you next projects.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum debitis sint impedit consequatur cumque sit
+      </p>
+      <form action="/action_page.php">
+        <label for="fname"></label><br>
+        <input type="text" id="fname" name="fname" value="Name"><br>
+        <label for="lname"></label><br>
+        <input type="text" id="lname" name="lname" value="email"><br><br>
+        <input type="text" id="lname" name="lname" value="Subject"><br><br>
+        <input type="text" id="lname" name="lname" value="comments"><br><br>
+        <button class="styled-button">Send Message</button>
+      </form>
     </div>
   </section>
-  <section id="projects">
-    <div class="center-left">
-        <h1>project</h1><hr>
+  <section class="last">
+    <div class="pic">
+      
     </div>
-    <div class="feature-content">
-     <div class="f-img">
-        <img src="./Images/house.webp">
-     </div>
-     <div class="par1">
-      <p>Summer house</p>
-     </div>
-     <div class="f-img">
-        <img src="./Images/house2 (1).jpg">
-     </div>
-     <div class="par2">
-      <p>Bricks house</p>
-     </div>
-     <div class="f-img">
-        <img src="./Images/house3 (1).jpg">
-     </div>
-     <div class="par3">
-      <p>Renovated house</p>
-     </div>
-     <div class="f-img">
-        <img src="./Images/house5 (1).jpg">
-       <div class="par4">
-        <p>Barn house</p>
-       </div>
-      </div>
+  </section>
+  <!-- footer section -->
+  <footer>
+    <div class="footer-content">
+        <p>&copy; <a href="httpps://www.w3schools.com/w3css" title="w3.css">w3schools.</a></p>
     </div>
-    <div class="feature-content">
-      <div class="f-img">
-         <img src="./Images/house.webp">
-      </div>
-      <div class="para1">
-        <p>Summer house</p>
-      </div>
-      <div class="f-img">
-         <img src="./Images/house2 (1).jpg">
-      </div>
-      <div class="para2">
-        <p>Bricks house</p>
-      </div>
-      <div class="f-img">
-         <img src="./Images/house3 (1).jpg">
-      </div>
-      <div class="para3">
-        <p>Renovated house</p>
-      </div>
-      <div class="f-img">
-         <img src="./Images/house5 (1).jpg">
-         <div class="para4">
-          <p>Barn house</p>
-        </div>
-        </div>
-     
-</section>
-<section id="main-body">
-  <div class="intro">
-    <div class="text">
-      <h2>About</h2><hr>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos iure consectetur vero. Unde impedit 
-        provident corporis consequatur aperiam, quaerat asperiores magnam recusandae ipsam beatae et, 
-        odio exercitationem non vitae officiis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero quibusdam fugit, consectetur, maiores exercitationem, quaerat nam accusamus distinctio sit quas animi
-         molestias magni eveniet? Id dignissimos quaerat mollitia dolore quia.
-      </p>
-    </div>
-    <div class="feature-content">
-      <div class="f-img">
-         <img src="./Images/img1.jpg">
-         <h1>John Doe</h1>
-         <p>Ceo & Founder</p>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore praesentium in 
-          accusantium dolores </p> 
-         <button>Contact</button>
-         
-      </div>
-      <div class="f-img">
-         <img src="./Images/img2.jpg">
-         <h1>Jane Doe</h1>
-         <p>Architect</p>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore praesentium in 
-          accusantium dolores </p>
-         <button>Contact</button>
-      </div>
-      <div class="f-img">
-         <img src="./Images/img3.jpg">
-         <h1>Mike Ross</h1>
-         <p>Architect</p>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore praesentium in 
-          accusantium dolores </p>
-         <button>Contact</button>
-      </div>
-      <div class="f-img">
-         <img src="./Images/img4.jpg">
-         <h1>Dan star</h1>
-         <p>Architect</p>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore praesentium in 
-          accusantium dolores </p>
-         <button>Contact</button>
-      </div>
-     </div>
-</section>
-<section id="contact-section">
-  <div class="contact-text">
-    <h1>Contact</h1><hr>
-    <h3>let get in touch and talk about you next projects.</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum debitis sint impedit consequatur cumque sit</p>
-    <form action="/action_page.php">
-      <label for="fname"></label><br>
-      <input type="text" id="fname" name="fname" value="Name"><br>
-      <label for="lname"></label><br>
-      <input type="text" id="lname" name="lname" value="email"><br><br>
-      <input type="text" id="lname" name="lname" value="Subject"><br><br>
-      <input type="text" id="lname" name="lname" value="comments"><br><br> 
-      <button class="styled-button">Send Message</button>
-    </form>
-  </div>
-</section>
-<section class="last">
-  <div class="pic">
-    <img src="./Images/new.jpg" alt="">
-
-  </div>
-
-</section>
-
-<footer>
-  <div class="footer-content">
-     
-      <p>powered W3.css</p>
-  </div>
 </footer>
 </body>
 </html>
