@@ -121,7 +121,7 @@ h3 span{
     padding: 10px;
 }
 .feature-content .f-img h1 p{
-    margin-left: 20px;
+    padding: 0 20px;
 }
 .btn{
     justify-content: center;
@@ -153,6 +153,19 @@ input{
     color: white;
 }
 .last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.pic img{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+/* .last{
     position: relative;
     background:url(./Images/new.jpg)no-repeat;
     background-position:center;
@@ -160,7 +173,7 @@ input{
     text-align: center;
     height:700px;
     z-index: 1;
-}
+} */
 .footer-content{
     background-color: black;
     align-items: center;
@@ -188,6 +201,34 @@ input{
         text-align: center;
         align-items: center;
     }
+}
+@media screen and (width < 600px) {
+   .top-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   }
+   .top-images .relative img{
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   }
+   .bottom-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   }
+   .bottom-img .relative img{
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   }
 }
 
 
